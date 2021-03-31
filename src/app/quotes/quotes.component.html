@@ -1,9 +1,11 @@
-<h1 style="text-align: center; text-shadow: white;">QUOTES</h1>
-<p style="color: white;">Below are quotes that have had an impact thoughts and emotions</p>
+<div class="container">
+  <h1 style="text-align: center; text-shadow: white;">QUOTES</h1>
+  <p style="color: white;">Below are quotes that have had an impact thoughts and emotions</p>
 
-<p *ngFor='let quote of quotes; let i = index'>
-  {{quote.id}}. {{quote.quote}}
-  <button (click)='toggleDetails(i)'>Toggle Details</button>
-  <app-quote-details *ngIf='quote.showDetails' [quotes]='quote' (isComplete) = 'quoteDelete($event,i)'></app-quote-details>
-</p>
-
+  <p *ngFor='let quote of quotes; let i = index'>
+    {{quote.id}}. {{quote.quote}}
+    <button (click)='toggleDetails(i)'>Toggle Details</button>
+    <app-quote-details *ngIf='quote.showDetails' [quotes]='quote' (isComplete)='quoteDelete($event,i)'>
+    </app-quote-details>
+  </p>
+</div>
