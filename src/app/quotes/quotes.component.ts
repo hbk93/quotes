@@ -10,8 +10,8 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   
   quotes:Quotes[] = [
-    new Quotes(1, 'time flies','wagwan',new Date(2021,2,31)),
-    new Quotes(2,'as it should','mzito', new Date(2021,2,25)),
+    new Quotes(1, 'When arguing with a fool, find out if the other person is doing the same thing','Anonymous', 'Allan', new Date(2020,9,20)),
+    new Quotes(2,'Any app that can be written in JavaScript will eventually be written in JavaScript.','Jeff Atwood', 'Harry', new Date(2020,2,23)),
   ];
 
   toggleDetails(index:any){
@@ -27,6 +27,13 @@ export class QuotesComponent implements OnInit {
       }
       
     }
+  }
+
+  addNewQuote(quote: Quotes){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.publishingDate = new Date(quote.publishingDate)
+    this.quotes.push(quote)
   }
   
   constructor() { }
