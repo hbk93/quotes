@@ -13,9 +13,7 @@
 * Open the folder on your terminal then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Live Demo
-* To view the page click the link below
-`https://hbk93.github.io/quotes/`
-
+* To view the page click [here](https://hbk93.github.io/quotes/)
 
 ## Technologies Used
 * [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
