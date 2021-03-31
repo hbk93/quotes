@@ -1,5 +1,5 @@
 <p>by {{quotes.author}}</p>
-<p>published {{quotes.publishingDate|timePassed}} day(s) ago</p>
-<button>Up Vote</button>
-<button>Down Vote</button>
+<p>published {{quotes.publishingDate|timePassed}} day(s) ago by {{quotes.publishedBy}}</p>
+<button style="color: white; font-size: 16px;" class="btn btn-secondary">Up Vote:{{quotes.upvotes}}</button>
+<button style="color: white; font-size: 16px;" class="btn btn-secondary">Down Vote:{{quotes.downvotes}}</button>
 <button (click) = 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
