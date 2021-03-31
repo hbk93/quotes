@@ -1,3 +1,5 @@
 <p>by {{quotes.author}}</p>
-<p>published on {{quotes.publishingDate|date}}</p>
-<button (click) = 'quoteDelete(true)'>Delete</button>
+<p>published {{quotes.publishingDate|timePassed}} day(s) ago</p>
+<button>Up Vote</button>
+<button>Down Vote</button>
+<button (click) = 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
