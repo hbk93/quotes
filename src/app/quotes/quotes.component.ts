@@ -10,8 +10,8 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   
   quotes:Quotes[] = [
-    {id:1, quote:'time flies', author:'wagwan'},
-    {id:2, quote:'as it should', author:'mzito'}
+    new Quotes(1, 'time flies','wagwan'),
+    new Quotes(2,'as it should','mzito'),
   ];
   
   constructor() { }
