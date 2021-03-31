@@ -20,7 +20,12 @@ export class QuotesComponent implements OnInit {
 
   quoteDelete(isComplete:any, index:any){
     if (isComplete) {
-      this.quotes.splice(index,1);
+      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].quote}?`)
+
+      if (toDelete){
+        this.quotes.splice(index,1)
+      }
+      
     }
   }
   
