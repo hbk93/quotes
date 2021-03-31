@@ -2,6 +2,9 @@
 
 ## By **Harry Bett**
 
+## Description
+* The App shows quotes mentioned by different people and you can also add your own quotes.
+
 ## Setup/Installation 
 * Clone or download and unzip this repository.
 
@@ -11,6 +14,7 @@
 
 ## Live Demo
 * To view the page click the link below
+`https://hbk93.github.io/quotes/`
 
 
 ## Technologies Used
