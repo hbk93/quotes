@@ -1,5 +1,6 @@
 export class Quotes {
-  id: number | undefined;
-  quote: string | undefined;
-  author: string | undefined;
+  showDetails:boolean;
+  constructor(public id: number, public quote: string, public author: string){
+    this.showDetails=false;
+  }
 }
