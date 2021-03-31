@@ -1,1 +1,8 @@
-<h1>Quotes</h1>
+<h1 style="text-align: center; text-shadow: white;">QUOTES</h1>
+<p style="color: white;">Below are quotes that have had an impact thoughts and emotions</p>
+
+<p *ngFor='let quote of quotes'>
+  {{quote.id}}. {{quote.quote}}
+  <app-quote-details [quotes]='quote'></app-quote-details>
+</p>
+
