@@ -1,27 +1,30 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+## By **Harry Bett**
 
-## Development server
+## Setup/Installation 
+* Clone or download and unzip this repository.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* You could also fork the repository then clone it to your machine.
 
-## Code scaffolding
+* Open the folder on your terminal then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Live Demo
+* To view the page click the link below
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
+* [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+* Javascript
+* Typescript
+* Bootstrap
 
-## Running unit tests
+## Known Bugs
+* The votes are not functioning as intended.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and contact details
+* Should you wish to contribute, fork the project and raise a pull request (PR)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+Copyright (c) 2021 Harry Bett
