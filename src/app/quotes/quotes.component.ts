@@ -10,8 +10,8 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   
   quotes:Quotes[] = [
-    new Quotes(1, 'time flies','wagwan'),
-    new Quotes(2,'as it should','mzito'),
+    new Quotes(1, 'time flies','wagwan',new Date(2021,2,31)),
+    new Quotes(2,'as it should','mzito', new Date(2021,2,25)),
   ];
 
   toggleDetails(index:any){
