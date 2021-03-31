@@ -13,6 +13,16 @@ export class QuotesComponent implements OnInit {
     new Quotes(1, 'time flies','wagwan'),
     new Quotes(2,'as it should','mzito'),
   ];
+
+  toggleDetails(index:any){
+    this.quotes[index].showDetails = !this.quotes[index].showDetails;
+  }
+
+  quoteDelete(isComplete:any, index:any){
+    if (isComplete) {
+      this.quotes.splice(index,1);
+    }
+  }
   
   constructor() { }
 
